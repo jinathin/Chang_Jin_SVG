@@ -1,11 +1,285 @@
-.image-wrapper 
-{
-	width: 45%;
-	display: inline-block;
-}
-
 img 
 {
 	width: 100%;
 	display: block;
 }
+
+body 
+{
+	display: flex;
+  	color: #000;
+
+  	background-image: url(../images/paint.jpg)
+}
+
+a:hover, a:active { 
+text-decoration:none; 
+filter: grayscale(0%);
+ }
+
+
+.custom 
+{
+	font-family: "Open Sans";
+	color: red;
+	
+}
+.custom2
+{
+	font-family: "Open Sans";
+	font-weight: bold;
+	color: black;
+}
+
+.hidden
+{
+  display: none;
+}
+
+.container
+{
+	width: 0 auto;
+	margin: 0 auto;
+	background-color: #add0ff;
+}
+
+.mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: #17d0ff;
+	background-image: url(../images/paint.jpg);
+	filter: grayscale(50%);
+	font-family: "Open Sans";
+	border: 2px solid #ffa2fe;
+	-webkit-text-stroke: 1px black;
+   	color: white;
+   	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+	
+.mainHeader h1, h2
+{
+	margin: 30px;
+}
+
+.logoHeader
+{
+	width: 200px;
+	margin-top: 25px;
+	margin-left: 225px;
+	margin-bottom: 20px;
+	
+}
+
+.mainNav
+{
+	width: 700px;
+	height: 25px;
+	margin-top: 150px;
+	margin-bottom: 10px;
+	margin-left: auto;
+
+	/*background-color: red;*/
+}
+
+.mainNav ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+.mainNav ul li
+{
+	display: inline;
+	font-size: 16px;
+	margin-left: 22px;
+	font-family: "Arial", sans-serif;
+}
+
+.mainNav ul li a
+{
+	color: #b5283e;
+	padding: 5px;
+}
+
+
+.mainNav ul li a:hover
+{
+	color: #999;
+}
+
+.mainFooter
+{
+	height: 125px;
+	background-image: url(../images/paint.jpg);
+	filter: grayscale(50%);
+	font-family: "Open Sans";
+	border: 1px solid #ffa2fe;
+	-webkit-text-stroke: 1px black;
+   	color: white;
+   	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#iconNav img
+{
+	width: 45px;
+	height: 45px;
+}
+
+#iconNav
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#iconNav li
+{
+	display: inline;
+	margin-right: 2px;
+
+}
+
+#iconNav li a 
+{
+	filter: grayscale(100%);
+
+}
+
+#iconNav li a:hover
+{
+	filter:grayscale(0%);
+}
+
+.logoNav
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.footerNav
+{
+
+	width: 500px;
+	height: 25px;
+
+
+}
+
+.footerNav ul
+{
+	padding: 0;
+	list-style-type: none;
+	color: #efefef;
+}
+
+.footerNav ul li
+{
+	display: inline;
+	margin-right: 10px;
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: "Open Sans";
+}
+
+#iconsection
+{
+  padding-left: 35px;
+  padding-top: 20px;
+  width: 1240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url(../images/paint3.jpg);
+
+}
+
+#iconsection h2
+{
+  font-size: 30px;
+  width: 1240px;
+  color: #b5283e;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  font-family: "Open Sans";
+
+}
+
+.iconimg
+{
+  width: 220px;
+  margin-bottom: 40px;
+}
+
+.iconimg h3
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  color: #2073a8;
+  font-size: 18px;
+  text-align: center;
+}
+
+.iconimg p
+{
+  font-size: 12px;
+  margin-top: 0;
+  padding-bottom: 15px;
+  font-family: "Open Sans";
+
+}
+
+.iconimg img
+{
+	filter: grayscale(100%);
+}
+
+.iconimg img:hover
+{
+	filter: grayscale(0%);
+}
+
+
+/*--------*/
+/*.iconimg img
+{
+;
+  cursor:pointer;
+  transition: all 200ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
+  transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
+}
+
+.iconimg img:hover{
+  color:black;
+  transform: scale(1.2);
+}
+
+
+
+/*--------------------------------------------*/
+
+.iconimg img 
+{
+  color:darkgray;
+  -webkit-transition: -webkit-transform 1.7s ease-in-out;
+  transition: all 1.7s ease-in-out;
+  
+}
+
+.iconimg img:hover
+{
+  cursor:pointer;
+  /*transform: rotate(70deg);*/
+  transform: rotateZ(720deg);
+
+  color:black;
+}
+
+
+
