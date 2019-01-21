@@ -247,7 +247,7 @@ filter: grayscale(0%);
 
 
 /*--------*/
-/*.iconimg img
+.iconimg img
 {
 ;
   cursor:pointer;
@@ -264,7 +264,7 @@ filter: grayscale(0%);
 
 /*--------------------------------------------*/
 
-.iconimg img 
+/*.iconimg img 
 {
   color:darkgray;
   -webkit-transition: -webkit-transform 1.7s ease-in-out;
