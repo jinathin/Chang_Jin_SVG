@@ -3,17 +3,18 @@
 /* Wrapper Container for the badges */
 .image-wrapper 
 {
-	width: 45%;
-	display: : inline-block;
+width: 45%;
+display: : inline-block;
 }
 
 image 
 {
-	width: 100%;
-	display: block;
+width: 100%;
+display: block;
 }
 
-#background :hover
+/*#background :hover
 {
-	fill: red;
+fill: red;
 }
+*/
