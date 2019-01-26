@@ -100,7 +100,7 @@ filter: grayscale(0%);
 
 .mainNav ul li a
 {
-	color: #b5283e;
+	
 	padding: 5px;
 }
 
@@ -152,12 +152,6 @@ filter: grayscale(0%);
 #iconNav li a:hover
 {
 	filter:grayscale(0%);
-}
-
-.logoNav
-{
-	display: flex;
-	flex-direction: column;
 }
 
 

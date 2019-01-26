@@ -7,10 +7,26 @@
 
 	var otherBadges =document.querySelectorAll("img");
 
-	function logBadgeId() {
+	function logBadgeId() 
+	{
 		console.log(this.id);
 		// debugger;
+		const ID = this.id;
+
+		// this.querySelector("object")
 	}
+
+	// switch (ID) {
+	// 	case "":
+	// 	const = svg.getElementById
+	// 	break;
+
+	// 	case "":
+	// 		alert
+	// 	break;
+
+	// 	default: break;
+	// }
 
 	// what events are we listening for? clicks? mouse over and what should happen when we hear one
 	badge.addEventListener("click", logBadgeId);

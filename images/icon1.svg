@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg id="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 300 400" style="enable-background:new 0 0 300 400;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#3D3D3D;}
-	.st1{fill:none;stroke:#231F20;stroke-width:12;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:#00B91B;stroke:#FF45C6;stroke-width:12;stroke-linecap:round;stroke-miterlimit:10;}
 	.st2{fill:none;}
 </style>
 <g id="easel">
@@ -55,11 +55,8 @@
 </g>
 <g id="art">
 	<line class="st1" x1="98.6" y1="120.6" x2="202.7" y2="120.6"/>
-	<line class="st1" x1="98.6" y1="134.7" x2="202.7" y2="134.7"/>
 	<line class="st1" x1="98.6" y1="148.7" x2="202.7" y2="148.7"/>
-	<line class="st1" x1="98.6" y1="162.7" x2="202.7" y2="162.7"/>
 	<line class="st1" x1="98.6" y1="176.8" x2="202.7" y2="176.8"/>
-	<line class="st1" x1="98.6" y1="190.8" x2="202.7" y2="190.8"/>
 	<line class="st1" x1="98.6" y1="204.8" x2="202.7" y2="204.8"/>
 	<rect class="st2" width="300" height="400"/>
 </g>
